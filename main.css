@@ -1,0 +1,118 @@
+
+
+	body {
+	  font-family: arial;
+	  font-size:1em;
+	}
+
+	h3 {
+	  margin-top: 2px;
+	}
+
+	ol {list-style-type: none;}
+
+	p {/* font-weight: bold; */}
+
+	ul {list-style: none;}
+
+	.alignCenter {text-align: center;}
+	.imgLogo {border-width: 2px;}
+
+	/* If a:link does not work, this one should */
+	a {
+	  text-decoration: none;
+	}
+
+	a:link {
+	  text-decoration: none;
+	}
+
+	a:active {
+	  text-decoration: none;
+	}
+
+	.italicCaption {
+	  font-style: italic;
+	  font-size: 70%;
+	}
+
+	/* FOR FORMS */
+
+	.loginArea {
+	  padding: 1px;
+	}
+
+	input, label #uname, #pw {
+	  margin-bottom: 4px;
+	  margin-top: 0;
+	}
+
+	select {
+	  margin-bottom: 10px;
+	  margin-top: 20px;
+	  text-align: center;
+	  /* font-weight: bold; */
+	}
+
+	option {
+	  /* font-weight: bold; */
+	}
+
+
+	textarea {
+		border-radius: 4px;
+		width: 70%;
+		height: 100px; /* it won't take percentages */
+		box-sizing: border-box;
+		background-color: #f8f8f8;
+	}
+
+
+	.caption { font-size: .7em; }
+	.bold {font-weight: bold;}
+	.alignRight {text-align: right;}
+
+	#introPage {
+	  text-align: center;
+	}
+
+	.logOutStyle {margin-left: 30px; /* font-weight: bold; */}
+	.uc {width: 90%; height: 57%;}
+
+
+	/* 
+		Disabled background-color and border styles because border appears as a line on the page by default 
+		I therefore added the styles on the inline error message <p tag>
+	*/
+
+	/*
+	div {
+	  background-color: #fff;
+	  text-align: center;
+	  width: 800px;
+	*/
+	/* 
+	  To center the contents.  Trying to stay away from tables.
+	  Fields are a little off alignment due to character length 
+	  in username and password, but I'm not sweating it.
+	  */
+	/*  
+	  margin: 200px auto;
+	  border-style: solid;
+	  border-width: 1px;
+	  border-color: silver;
+	  background-color: #FDFEFE;
+	*/
+	/* FYI: 
+			Doesn't work neither in div nor form border: 1px soild silver;
+			Doesn't work on div color: blue;
+		*/
+	/*	
+	}
+	*/
+
+	/*  body-size: 16px; */
+	/* does not remove  all padding */
+	/*  margin:0; padding:0; */
+
+	/* font size does not work in body */
